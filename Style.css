@@ -1,0 +1,119 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #11eb97;
+}
+
+
+.nav-main{
+    background-color: #2468e6;
+    width: 1350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 2px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.text{
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.text h1{
+    font-size: 60px;
+    color: #4d050c;
+    font-family: cursive;
+}
+
+.text p{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-section {
+    width: 30%; 
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 0.9em;
+    color: #aaa;
+    margin-top: 20px;
+}
